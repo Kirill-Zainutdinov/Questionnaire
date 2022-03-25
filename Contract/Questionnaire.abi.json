@@ -1,0 +1,74 @@
+{
+	"ABI version": 2,
+	"version": "2.2",
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "setName",
+			"inputs": [
+				{"name":"_name","type":"string"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "setAge",
+			"inputs": [
+				{"name":"_age","type":"string"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "setSchool",
+			"inputs": [
+				{"name":"_school","type":"string"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "name",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"name","type":"string"}
+			]
+		},
+		{
+			"name": "age",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"age","type":"string"}
+			]
+		},
+		{
+			"name": "school",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"school","type":"string"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"name","type":"string"},
+		{"name":"age","type":"string"},
+		{"name":"school","type":"string"}
+	]
+}
